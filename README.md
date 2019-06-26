@@ -1,7 +1,7 @@
 Welcome to my LaCompagnieDesPlantesAWS sample web service
 ==============================================
 
-This sample code requires some configuration to get you started. Please check the application.properties and EmailSenderImpl class and follow the instructions in comments. This application is meant to work withing SpringBoot framework. If you want to check out the working example of this app visit: lacompagniedesplantes.be
+This sample code requires some configuration to get you started. Please check the application.properties and EmailSenderImpl class and follow the instructions in comments. This application is meant to work withing SpringBoot framework. If you want to check out the working example of this app visit: http://lacompagniedesplantes.be
 
 What's Here
 -----------
