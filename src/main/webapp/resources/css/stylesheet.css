@@ -1,0 +1,588 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+    padding-bottom: 70px;
+    background-color: ghostwhite;
+}
+
+
+header {
+    background-color: transparent;
+}
+
+h1 {
+    color: dimgrey;
+    font-family: Italianno-Regular, sans-serif;
+    font-style: italic;
+    font-size: 165px;
+    line-height: 160px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: left;
+    text-shadow: 0 1px 1px #555555;
+}
+
+h2 {
+    font-family: CormorantInfant-SemiBoldItalic, sans-serif;
+}
+
+h3 {
+    font-family: CormorantInfant-SemiBoldItalic, sans-serif;
+}
+
+p {
+    font-family: CormorantInfant-LightItalic, sans-serif;
+}
+
+li {
+    font-family: CormorantInfant-Italic, sans-serif;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+blockquote {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    position: absolute;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(98, 126, 111, 0.49);
+}
+
+nav .main {
+    background-color: rgba(223, 218, 218, 0.77);
+    background-repeat: repeat-y;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+/* Display Dropdowns on Hover */
+nav div div li:hover > .dropdown-menu {
+    display: inherit;
+    margin-top: 0; /*I removed the gap so it doesn't close*/
+}
+
+img {
+    /*opacity: 0.9;*/
+}
+
+.jumbotron {
+    background-color: rgba(215, 213, 216, 0.62);
+}
+
+#landingpage {
+    background-image: url("../images/pisenlit02(gimp02).jpg");
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.textbackground {
+    background-color: rgba(162, 170, 141, 0.36);
+    padding: 5px;
+}
+
+.textbackground2 {
+    background-color: rgba(26, 156, 75, 0.35);
+    padding: 5px;
+}
+
+#legend dl dt i{
+    color: dimgrey;
+    font-size: 30px;
+    /*text-shadow: 0 1px 1px #555555;*/
+}
+
+#legend dl dt{
+    color: dimgrey;
+    font-family: ComorantInfant-Light, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: left;
+    /*text-shadow: 0 1px 1px #555555;*/
+}
+
+#legend dl dd{
+    color: dimgrey;
+    font-family: ComorantInfant-Light, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: left;
+    /*text-shadow: 0 1px 1px #555555;*/
+}
+
+/*FONTS*/
+@font-face {
+    font-family: CormorantInfant-Light;
+    src: url(fonts/cormorant/CormorantInfant-Light.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CormorantInfant-LightItalic;
+    src: url(fonts/cormorant/CormorantInfant-LightItalic.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CormorantInfant-Italic;
+    src: url(fonts/cormorant/CormorantInfant-Italic.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CormorantInfant-MediumI;
+    src: url(fonts/cormorant/CormorantInfant-Medium.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CormorantInfant-MediumItalic;
+    src: url(fonts/cormorant/CormorantInfant-MediumItalic.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CormorantInfant-Bold;
+    src: url(fonts/cormorant/CormorantInfant-Bold.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CormorantInfant-BoldItalic;
+    src: url(fonts/cormorant/CormorantInfant-BoldItalic.otf) format("opentype");
+    color: black;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CormorantInfant-SemiBold;
+    src: url(fonts/cormorant/CormorantInfant-SemiBold.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CormorantInfant-SemiBoldItalic;
+    src: url(fonts/cormorant/CormorantInfant-SemiBoldItalic.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CormorantInfant-Regular;
+    src: url(fonts/cormorant/CormorantInfant-Regular.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cormorant-Regular;
+    src: url(fonts/cormorant/Cormorant-Regular.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cormorant-Light;
+    src: url(fonts/cormorant/Cormorant-Light.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cormorant-Italic;
+    src: url(fonts/cormorant/Cormorant-Italic.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cormorant-LightItalic;
+    src: url(fonts/cormorant/Cormorant-LightItalic.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cormorant-Bold;
+    src: url(fonts/cormorant/Cormorant-Bold.otf) format("opentype");
+    font-weight: 400;
+}
+
+/*ARTSY FONTS*/
+
+@font-face {
+    font-family: Arizonia-Regular;
+    src: url(fonts/Arizonia-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Allura-Regular;
+    src: url(fonts/Allura-Regular.otf) format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Champagne;
+    src: url(fonts/cac_champagne.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Italianno-Regular;
+    src: url(fonts/Italianno-Regular-OTF.otf) format("opentype");
+    font-weight: 400;
+}
+
+/*@font-face {
+    font-family: Ostrich-Regular;
+    src: url(fonts/ostrich-sans/ostrich-regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: OstrichSans-Medium;
+    src: url(fonts/ostrich-sans/OstrichSans-Medium.otf) format("opentype");
+    font-weight: 400;
+}
+*/
+@font-face {
+    font-family: OstrichSans-Heavy;
+    src: url(fonts/OstrichSans-Heavy.otf) format("opentype");
+    font-weight: 400;
+}
+
+/*PARALLAX EFECTS*/
+
+/*VIEW MAIN PARALLAX */
+#index {
+    position: relative;
+    width: 100%;
+    height: 93%;
+    background: url("../images/index/indexWood09.jpg");
+    /*background-attachment: fixed;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: auto;*/
+}
+
+#herbier {
+    width: 100%;
+    height: 93%;
+    background: url("../images/herbier/plant03(web).jpg");
+}
+
+#quiSuisJe {
+    width: 100%;
+    height: 93%;
+    background: url("../images/quiSuisJe/quiSuisJe2(web).jpg");
+}
+
+#reiki {
+    width: 100%;
+    height: 93%;
+    background: url("../images/reiki/reiki15(cropped).jpg");
+}
+
+#fuji {
+    width: 100%;
+    height: 200px;
+    background: url("../images/reiki/fuji01(cropped).jpg");
+}
+
+#ateliers {
+    width: 100%;
+    height: 93%;
+    background: url("../images/ateliers/bowl01.jpg");
+
+}
+
+#contact {
+    width: 100%;
+    height: 93%;
+    background: url("../images/contact/riverKayak1(web).jpg");
+
+}
+
+/*VIEW' INNER PARALLAX*/
+.parallax1 {
+    /* The image used */
+    background-image: url("../images/index/indexWood09.jpg");
+    opacity: 1;
+    /* Set a specific height */
+    min-height: 750px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/index/indexWood09.jpg");
+    opacity: 1;
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../images/herbier/plant01(web).jpg");
+    opacity: 1;
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("../images/herbier/plant02(web).jpg");
+    opacity: 1;
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left -20% bottom 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    /* The image used */
+    background-image: url("../images/herbier/plant03(web).jpg");
+    opacity: 1;
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax6 {
+    /* The image used */
+    background-image: url("../images/herbier/plant05(web).jpg");
+    opacity: 1;
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*AUTO IMAGE SLIDER */
+slider {
+    display: flex;
+    width: 100%;
+    height: 93%;
+    /*min-height: 660px;*/
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: relative;
+}
+
+slider > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #1f1f1f;
+    animation-name: slide;
+    animation-duration: 27s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    overflow: hidden;
+}
+
+slide:nth-child(1) {
+    left: 0%;
+    animation-delay: 0s;
+    background-image: url(../images/gallerie/slider/panels01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(2) {
+
+    animation-delay: 3s;
+    background-image: url(../images/gallerie/slider/panels02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(3) {
+
+    animation-delay: 6s;
+    background-image: url(../images/gallerie/slider/panels03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(4) {
+
+    animation-delay: 9s;
+    background-image: url(../images/gallerie/slider/panels09.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(5) {
+
+    animation-delay: 12s;
+    background-image: url(../images/gallerie/slider/panels04.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(6) {
+
+    animation-delay: 15s;
+    background-image: url(../images/gallerie/slider/panels05.jpg);
+    background-size: cover;
+    background-position: center;
+}
+slide:nth-child(7) {
+
+    animation-delay: 18s;
+    background-image: url(../images/gallerie/slider/panels06.jpg);
+    background-size: cover;
+    background-position: center;
+}
+slide:nth-child(8) {
+
+    animation-delay: 21s;
+    background-image: url(../images/gallerie/slider/panels07.jpg);
+    background-size: cover;
+    background-position: center;
+}
+slide:nth-child(9) {
+
+    animation-delay: 24s;
+    background-image: url(../images/gallerie/slider/panels08.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+slide p {
+    font-family: Italianno-Regular;
+    font-size: 70px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 340px;
+    color: #fff;
+}
+
+@keyframes slide {
+    0% {
+        left: 100%;
+        width: 100%;
+    }
+    5% {
+        left: 0%;
+    }
+    25% {
+        left: 0%;
+    }
+    30% {
+        left: -100%;
+        width: 100%;
+    }
+    30.0001% {
+        left: -100%;
+        width: 0%;
+    }
+    100% {
+        left: 100%;
+        width: 0%;
+    }
+}
+
+/*FLIP BOX*/
+/*.flip-box {
+    background-color: floralwhite;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    backface-visibility: hidden;
+}
+
+.flip-box-front > img {
+    max-height: 100%;
+    width: -moz-fit-content;
+    object-fit: cover;
+    position: center;
+
+}
+
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-box-back {
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg);
+}*/
+
